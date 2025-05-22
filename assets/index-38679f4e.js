@@ -17135,7 +17135,7 @@ function ShortCourses() {
   const [PFshortCourses] = reactExports.useState([
     {
       title: "Basic TCL Based",
-      image: "/images/parflow-resources/Notebook.png",
+      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/parflow-resources/Notebook.png`,
       description: "",
       link: "https://github.com/hydroframe/ParFlow_Short_Course"
     },

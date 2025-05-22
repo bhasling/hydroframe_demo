@@ -14400,7 +14400,7 @@ function AboutUs() {
     {
       imageLeft: false,
       title: "What is HydroFrame?",
-      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/about-us/what-is-hydroframe.png`,
+      image: "./images/about-us/what-is-hydroframe.png",
       description: `<div>HydroFrame is a platform to facilitate easy interaction with large computationally intensive hydrologic models and massive simulated outputs.</div>
                 <div class="mt-5">Our tools enable users to subset model inputs and outputs for any watershed in the US and to develop their own models.</div>
                 <div class="mt-5">We also develop free interactive educational tools and lesson plans to teach students of all ages about groundwater and the hydrologic cycle.</div>`
@@ -14446,7 +14446,7 @@ function AboutUs() {
         item: {
           title: "About us",
           description: "",
-          image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/three-line-swoosh.svg`
+          image: "./images/three-line-swoosh.svg"
         }
       }
     ),
@@ -14460,7 +14460,7 @@ const UserCard = ({ item }) => {
       {
         alt: "",
         className: `w-full`,
-        src: "/images/our-team/" + item.image
+        src: "./images/our-team/" + item.image
       }
     ) }),
     /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center mt-2", children: [

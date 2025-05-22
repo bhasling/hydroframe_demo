@@ -18,7 +18,7 @@ const HomePageCard: React.FC<{ item: HomePageCardType; index: number }> = ({
                             role="presentation"
                             alt=""
                             className={`w-full cursor-pointer `}
-                            src={"/images/lending/" + item.image}
+                            src={`${import.meta.env.BASE_URL}/images/lending/` + item.image}
                         />
                         <div className="text-center mt-2">
                             <div className={`font-bold text-2xl mb-1`}>

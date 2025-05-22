@@ -9,7 +9,7 @@ const UserCard: React.FC<{ item: UserCardType }> = ({ item }) => {
                     <img
                         alt=""
                         className={`w-full`}
-                        src={"/images/our-team/" + item.image}
+                        src={"./images/our-team/" + item.image}
                     />
                 </div>
                 <div className="text-center mt-2">

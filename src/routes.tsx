@@ -18,7 +18,7 @@ import ParFlowCONUS2 from "pages/parFlowCONUS2";
 import NotFound from "pages/NotFound";
 
 const createRoutes = () => (
-    <BrowserRouter>
+    <BrowserRouter basename='/hydroframe_demo/'>
         <Routes>
             <Route path="/" element={<App />}>
                 <Route path="/" element={<Home />} />

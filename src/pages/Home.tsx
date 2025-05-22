@@ -80,7 +80,7 @@ function Home() {
                     <div className="col-span-6">
                         <img
                             className="w-full m-auto lg:m-0"
-                            src="./images/Logo-Blue-hydroframe.png"
+                            src={`${import.meta.env.BASE_URL}/images/images/Logo-Blue-hydroframe.png`}
                             alt=""
                         />
                     </div>

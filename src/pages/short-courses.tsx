@@ -7,7 +7,7 @@ function ShortCourses() {
     const [PFshortCourses,] = useState<ParFlowCardType[]>([
         {
             title: "Basic TCL Based",
-            image: "/images/parflow-resources/Notebook.png",
+            image: `${import.meta.env.BASE_URL}/images/parflow-resources/Notebook.png`,
             description: "",
             link: "https://github.com/hydroframe/ParFlow_Short_Course",
         },

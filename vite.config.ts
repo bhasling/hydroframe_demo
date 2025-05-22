@@ -9,4 +9,5 @@ export default defineConfig({
 		outDir: 'build'
 	},
 	plugins: [react(), tsconfigPaths()],
+	base: 'https://bhasling.github.io/hydroframe_demo/',
 });

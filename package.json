@@ -2,6 +2,7 @@
   "name": "HydroFrame",
   "version": "1.1.0",
   "private": true,
+  "homepage": "https://bhasling.github.io/hydroframe_demo",
   "dependencies": {
     "@headlessui/react": "^1.7.17",
     "@heroicons/react": "^2.0.18",
@@ -18,6 +19,7 @@
     "@types/react-router-dom": "^5.3.3",
     "dompurify": "^3.0.6",
     "dotenv": "^16.3.1",
+    "gh-pages": "^6.3.0",
     "heroicons": "^2.0.18",
     "package-lock.json": "^1.0.0",
     "react": "^18.2.0",
@@ -29,12 +31,15 @@
     "react-responsive-carousel": "^3.2.23",
     "react-router-dom": "^6.16.0",
     "react-scripts": "^5.0.1",
+    "save": "^2.9.0",
     "typescript": "^4.9.5",
     "uuid": "^9.0.1",
     "web-vitals": "^2.1.4",
     "yup": "^1.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "vite --port 3000 --host",
     "build": "vite build --mode development && cp _redirects build/_redirects",
     "build_preview": "npm run build && vite preview --port 3000 --host",

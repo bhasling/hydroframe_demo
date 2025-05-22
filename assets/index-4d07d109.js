@@ -9009,7 +9009,7 @@ function Home() {
       ) }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "col-span-6 text-primary md:pl-10 lg:max-w-full max-w-full lg:py-3  lg:m-0", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-2xl font-bold", children: "A national framework for hydrologic modeling and scientific discovery" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-black mt-2", children: "Our stated goal is to make national hydrologic simulations and datasets more accessible. We have a variety of tools available to access data, build models and learn more about our national watersheds and hydrology." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-black mt-2", children: "Our goal is to make national hydrologic simulations and datasets more accessible. We have a variety of tools available to access data, build models and learn more about our national watersheds and hydrology." })
       ] })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "col-span-12 m-auto pb-30 gap-4 lg:gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3", children: cardList.map((item, ind) => {

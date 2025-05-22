@@ -9003,7 +9003,7 @@ function Home() {
         "img",
         {
           className: "w-full m-auto lg:m-0",
-          src: `${"https://bhasling.github.io/hydroframe_demo/"}/images/images/Logo-Blue-hydroframe.png`,
+          src: `${"https://bhasling.github.io/hydroframe_demo/"}/images/Logo-Blue-hydroframe.png`,
           alt: ""
         }
       ) }),
@@ -14400,7 +14400,7 @@ function AboutUs() {
     {
       imageLeft: false,
       title: "What is HydroFrame?",
-      image: "./images/about-us/what-is-hydroframe.png",
+      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/about-us/what-is-hydroframe.png`,
       description: `<div>HydroFrame is a platform to facilitate easy interaction with large computationally intensive hydrologic models and massive simulated outputs.</div>
                 <div class="mt-5">Our tools enable users to subset model inputs and outputs for any watershed in the US and to develop their own models.</div>
                 <div class="mt-5">We also develop free interactive educational tools and lesson plans to teach students of all ages about groundwater and the hydrologic cycle.</div>`
@@ -14408,7 +14408,7 @@ function AboutUs() {
     {
       imageLeft: true,
       title: "Why HydroFrame?",
-      image: "./images/about-us/seeks-hydroframe.png",
+      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/about-us/seeks-hydroframe.png`,
       description: `<div>Hydrologic simulations have advanced greatly in
                 recent years. We now have models spanning the entire
                 US that capture groundwater, surface water and plant
@@ -14446,7 +14446,7 @@ function AboutUs() {
         item: {
           title: "About us",
           description: "",
-          image: "./images/three-line-swoosh.svg"
+          image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/three-line-swoosh.svg`
         }
       }
     ),

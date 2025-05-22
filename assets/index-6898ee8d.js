@@ -17727,7 +17727,7 @@ const NotFound = () => {
     )
   ] }) }) });
 };
-const createRoutes = () => /* @__PURE__ */ jsxRuntimeExports.jsx(BrowserRouter, { basename: "https://bhasling.github.io/hydroframe_demo/", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Routes, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Route, { path: "/", element: /* @__PURE__ */ jsxRuntimeExports.jsx(App, {}), children: [
+const createRoutes = () => /* @__PURE__ */ jsxRuntimeExports.jsx(BrowserRouter, { basename: "/hydroframe_demo", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Routes, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Route, { path: "/", element: /* @__PURE__ */ jsxRuntimeExports.jsx(App, {}), children: [
   /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/", element: /* @__PURE__ */ jsxRuntimeExports.jsx(Home, {}) }),
   /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/about-us", element: /* @__PURE__ */ jsxRuntimeExports.jsx(AboutUs, {}) }),
   /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/our-team", element: /* @__PURE__ */ jsxRuntimeExports.jsx(OurTeam, {}) }),

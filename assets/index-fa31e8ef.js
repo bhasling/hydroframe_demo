@@ -8918,7 +8918,7 @@ const HomePageCard = ({
               role: "presentation",
               alt: "",
               className: `w-full cursor-pointer `,
-              src: "/images/lending/" + item.image
+              src: `${"https://bhasling.github.io/hydroframe_demo/"}/images/lending/` + item.image
             }
           ),
           /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-center mt-2", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: `font-bold text-2xl mb-1`, children: item.title }) })
@@ -8934,63 +8934,63 @@ const HomePageCard = ({
 function Home() {
   const cardList = [
     {
-      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/hydroGEN-hydroframe.jpeg`,
+      image: "hydroGEN-hydroframe.jpeg",
       url: "/hydrogen",
       title: "HydroGEN",
       group: "APPLICATIONS",
       description: "Explore current and future watershed conditions across the US with HydroGEN"
     },
     {
-      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/lending/hydroData-hydroframe.jpeg`,
+      image: "hydroData-hydroframe.jpeg",
       url: "/hydrodata",
       title: "HydroData",
       group: "DATA AND SIMULATIONS",
       description: "Access hydrologic datasets and model results"
     },
     {
-      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/lending/parFlow-conus1.0-model-hydroframe.jpeg`,
+      image: "parFlow-conus1.0-model-hydroframe.jpeg",
       url: "/parflow-conus1",
       title: "ParFlow CONUS1.0",
       group: "DATA AND SIMULATIONS",
       description: "Learn more about the first generation national ParFlow model"
     },
     {
-      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/lending/parFlow-conus2.0-model-hydroframe.jpeg`,
+      image: "parFlow-conus2.0-model-hydroframe.jpeg",
       url: "/parflow-conus2",
       title: "ParFlow CONUS2.0",
       group: "DATA AND SIMULATIONS",
       description: "Learn more about the second generation national ParFlow model"
     },
     {
-      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/lending/parFlow-resources-hydroframe.jpeg`,
+      image: "parFlow-resources-hydroframe.jpeg",
       url: "/parflow-resources",
       title: "ParFlow Resources",
       group: "MODELING TOOLS",
       description: "Find training resources and tools for working with ParFlow models"
     },
     {
-      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/lending/subsetting-python-tools-hydroframe.jpeg`,
+      image: "subsetting-python-tools-hydroframe.jpeg",
       url: "/subsettools",
       title: "SubsetTools",
       group: "MODELING TOOLS",
       description: "Build your own watershed model from the national ParFlow platform"
     },
     {
-      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/lending/sandtank-ML-hydroframe.jpeg`,
+      image: "sandtank-ML-hydroframe.jpeg",
       url: "/sandtank-ml",
       title: "ParFlow Sandtank ML",
       group: "EDUCATIONAL TOOLS",
       description: "Use our machine learning educational application to explore how ML emulators are used in hydrology"
     },
     {
-      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/lending/parFlow-sandtank-model-hydroframe.jpeg`,
+      image: "parFlow-sandtank-model-hydroframe.jpeg",
       url: "/parflow-sandtank-model",
       title: "ParFlow Sandtank Model",
       group: "EDUCATIONAL TOOLS",
       description: "Use our sandtank educational application to learn about groundwater hydrology"
     },
     {
-      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/lending/other-tools-and-partners-hydroframe.jpeg`,
+      image: "other-tools-and-partners-hydroframe.jpeg",
       url: "/other-tools-and-partners",
       title: "Other Tools and Partners",
       group: "EDUCATIONAL TOOLS",

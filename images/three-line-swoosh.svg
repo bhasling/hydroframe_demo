@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2195.273" height="360" viewBox="0 0 2195.273 360" fill="#228CCB">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_140" data-name="Rectangle 140" width="2186.088" height="208.013" transform="translate(0 0)" fill="#228CCB" stroke="#228ccb" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_140-2" data-name="Rectangle 140" width="2186.088" height="208.013" fill="#228CCB" stroke="#228ccb" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Outline_Header" data-name="Outline Header" transform="translate(0.255 10.253) rotate(2)">
+    <g id="Group_91" data-name="Group 91" transform="translate(0 120)">
+      <g id="Group_88-2" data-name="Group 88" clip-path="url(#clip-path-2)">
+        <path id="Path_44-2" data-name="Path 44" d="M1332.8,57.579C937.466,87.958,688.606,224.77,316.787,206.307,178.354,199.434,70.615,167.17,0,138.414V0S148.676,107.557,408.891,128.374C779.982,158.06,1032.863,28.831,1428.936,10.409c447.57-20.818,745.645,117.685,745.645,117.685l11.507,71.59C2058.159,151.531,1693.017,29.9,1332.8,57.579" transform="translate(0 0)" fill="#228CCB" stroke="#228ccb" stroke-width="1"/>
+      </g>
+    </g>
+  </g>
+</svg>

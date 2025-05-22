@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;" charset="UTF-8">
+  <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAArBJREFUeNrklz1v00AYx89ORBCTkZC6UNVhZMELG4O7MUHyCYgH5qQSK2otVqQ0E0OHJgtiS8QXwCAmGLCKxFKJuFRFQkhwAwEiaMP/qjNKr/ecX9IBiUc6XRJf/Ps/L37uzNj/blaRxVvvuIupgXEbw8Nw3u7s8uHugSOXRBgxxmD/fiM+MwEA+5jWMXz12t5nHg5exOuavwkBIYSMFhIAeBdTh7ic3L3q1JcfjLbxuUWsEVFpQgjXXbQNYAfjjQEubE3OIQYn1oiojSHSyy1AwDE9k3mmLIL3x+GFdwmmnmHt8f10IqgIDDPgwttg/geI2JB5N4kYQoRjFADvO7piUyyA94nud0MqhImnqEsWoQz9WKqlrA94QF2Ehx0VorFVRCzSRaCTAY/nCk9ruPEmplGGgDaVgjtZeYf3PEfrCDLqoZHWgq10OVe3+tP0kG19+LYGeK7uJp/5IGNZQ42AT8GffJxEr25e7hdp27IVh4Yl11QBrg7++GDCvh/OeiX3mk2yBds1z9gJU/jPoxl/f2tlVIYuUxGdaj6VC6xSu0Q3ojk4yyimPPZchdvnLtKNSIGfqalwVQAn4O6C3BUCzk8IePllGhOeu1ee7i0iwtd5nqbmr4DBjaVIFBxxk1YZMpqNgLsaeHpOOFUDVLW3EQWnqIDK+aUuAU/G967HOgGhaT8vIqL+8PW2ZVWpLT0kj2SAmI5XQnUTfSExgB25G1L3EN7X0y9V4pjlE9XvsaPZuP5op88m014aRgl2JbSdsaM2Mw+liIInj2T6G+FJme1/ZWz6O42KlzMzAUT3c52KC4ooBTfuBciz8GyVbMW2xaxlVHitmgXmFDz3iwmisUHm1hwJAQ0BTxZ+NZOPYEu+lvkGEYnsJz0TuNS7oSLopIgfv4SIJA/0n7I/AgwAwUgsYd3kTUsAAAAASUVORK5CYII=" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="National Framework for Hydrologic Discovery" />
+  <link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAArBJREFUeNrklz1v00AYx89ORBCTkZC6UNVhZMELG4O7MUHyCYgH5qQSK2otVqQ0E0OHJgtiS8QXwCAmGLCKxFKJuFRFQkhwAwEiaMP/qjNKr/ecX9IBiUc6XRJf/Ps/L37uzNj/blaRxVvvuIupgXEbw8Nw3u7s8uHugSOXRBgxxmD/fiM+MwEA+5jWMXz12t5nHg5exOuavwkBIYSMFhIAeBdTh7ic3L3q1JcfjLbxuUWsEVFpQgjXXbQNYAfjjQEubE3OIQYn1oiojSHSyy1AwDE9k3mmLIL3x+GFdwmmnmHt8f10IqgIDDPgwttg/geI2JB5N4kYQoRjFADvO7piUyyA94nud0MqhImnqEsWoQz9WKqlrA94QF2Ehx0VorFVRCzSRaCTAY/nCk9ruPEmplGGgDaVgjtZeYf3PEfrCDLqoZHWgq10OVe3+tP0kG19+LYGeK7uJp/5IGNZQ42AT8GffJxEr25e7hdp27IVh4Yl11QBrg7++GDCvh/OeiX3mk2yBds1z9gJU/jPoxl/f2tlVIYuUxGdaj6VC6xSu0Q3ojk4yyimPPZchdvnLtKNSIGfqalwVQAn4O6C3BUCzk8IePllGhOeu1ee7i0iwtd5nqbmr4DBjaVIFBxxk1YZMpqNgLsaeHpOOFUDVLW3EQWnqIDK+aUuAU/G967HOgGhaT8vIqL+8PW2ZVWpLT0kj2SAmI5XQnUTfSExgB25G1L3EN7X0y9V4pjlE9XvsaPZuP5op88m014aRgl2JbSdsaM2Mw+liIInj2T6G+FJme1/ZWz6O42KlzMzAUT3c52KC4ooBTfuBciz8GyVbMW2xaxlVHitmgXmFDz3iwmisUHm1hwJAQ0BTxZ+NZOPYEu+lvkGEYnsJz0TuNS7oSLopIgfv4SIJA/0n7I/AgwAwUgsYd3kTUsAAAAASUVORK5CYII=" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="./manifest.json" />
+  <!--
+      Notice the use of ./assets in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "./assets/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <title>HydroFrame - National Framework for Hydrologic Discovery</title>
+  <style>
+    .loading {
+      -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+      animation: sk-scaleout 1.0s infinite ease-in-out;
+      background-color: black;
+      border-radius: 100%;
+      height: 6em;
+      width: 6em;
+    }
+
+    .loader_container {
+      align-items: center;
+      background-color: white;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      width: 100vw;
+      position: fixed;
+      z-index: 9999999;
+      max-height: 100vh;
+      top: 0;
+      -webkit-animation-duration: .5s;
+      animation-duration: .5s;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+
+    }
+
+    @-webkit-keyframes fadeOut {
+      0% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @keyframes fadeOut {
+      0% {
+        opacity: 1;
+      }
+
+      100% {
+        opacity: 0;
+      }
+    }
+
+    .loader_container.fadeOut {
+      -webkit-animation-name: fadeOut;
+      animation-name: fadeOut;
+    }
+
+    @-webkit-keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+
+      100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+        transform: scale(1.0);
+      }
+    }
+
+    @keyframes sk-scaleout {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+
+      100% {
+        -webkit-transform: scale(1.0);
+        opacity: 0;
+        transform: scale(1.0);
+      }
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-2bba96cc.js"></script>
+  <link rel="stylesheet" href="/assets/index-1c3eb518.css">
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="spinner" class="loader_container">
+    <div class="loading"></div>
+  </div>
+  <div id="root">
+  </div>
+  
+
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>

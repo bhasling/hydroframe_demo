@@ -9009,7 +9009,7 @@ function Home() {
       ) }),
       /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "col-span-6 text-primary md:pl-10 lg:max-w-full max-w-full lg:py-3  lg:m-0", children: [
         /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-2xl font-bold", children: "A national framework for hydrologic modeling and scientific discovery" }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-black mt-2", children: "Our goal is to make national hydrologic simulations and datasets more accessible. We have a variety of tools available to access data, build models and learn more about our national watersheds and hydrology." })
+        /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "text-black mt-2", children: "Our stated goal is to make national hydrologic simulations and datasets more accessible. We have a variety of tools available to access data, build models and learn more about our national watersheds and hydrology." })
       ] })
     ] }) }),
     /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "col-span-12 m-auto pb-30 gap-4 lg:gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3", children: cardList.map((item, ind) => {
@@ -17710,6 +17710,23 @@ function ParFlowCONUS2() {
     ] })
   ] });
 }
+const NotFound = () => {
+  return /* @__PURE__ */ jsxRuntimeExports.jsx(jsxRuntimeExports.Fragment, { children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-col md:flex-row md:flex place-content-center gap-5 lg:gap-x-10 mt-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-center", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "px-4 sm:px-8 lg:px-36 grid gap-10 lg:gap-12 py-10", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "text-3xl lg:text-5xl font-bold break-words w-full !sticky !top-20", children: [
+      /* @__PURE__ */ jsxRuntimeExports.jsx("b", { children: "Whoops!" }),
+      " Page Not Found"
+    ] }) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(
+      Link,
+      {
+        to: "/",
+        className: "inline-block font-medium px-8 py-4 lg:px-4 lg:py-4 sm:px-8 sm:py-2 bg-primary w-80 text-white uppercase transition-colors hover:bg-secondaryHover",
+        type: "submit",
+        children: "Let's get you back home"
+      }
+    )
+  ] }) }) });
+};
 const createRoutes = () => /* @__PURE__ */ jsxRuntimeExports.jsx(BrowserRouter, { basename: "/hydroframe_demo/", children: /* @__PURE__ */ jsxRuntimeExports.jsx(Routes, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs(Route, { path: "/", element: /* @__PURE__ */ jsxRuntimeExports.jsx(App, {}), children: [
   /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/", element: /* @__PURE__ */ jsxRuntimeExports.jsx(Home, {}) }),
   /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/about-us", element: /* @__PURE__ */ jsxRuntimeExports.jsx(AboutUs, {}) }),
@@ -17754,7 +17771,8 @@ const createRoutes = () => /* @__PURE__ */ jsxRuntimeExports.jsx(BrowserRouter, 
   ),
   /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/short-courses", element: /* @__PURE__ */ jsxRuntimeExports.jsx(ShortCourses, {}) }),
   /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/parflow-conus1", element: /* @__PURE__ */ jsxRuntimeExports.jsx(ParFlowCONUS1, {}) }),
-  /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/parflow-conus2", element: /* @__PURE__ */ jsxRuntimeExports.jsx(ParFlowCONUS2, {}) })
+  /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "/parflow-conus2", element: /* @__PURE__ */ jsxRuntimeExports.jsx(ParFlowCONUS2, {}) }),
+  /* @__PURE__ */ jsxRuntimeExports.jsx(Route, { path: "*", element: /* @__PURE__ */ jsxRuntimeExports.jsx(NotFound, {}) })
 ] }) }) });
 const main = "";
 const carousel_min = "";

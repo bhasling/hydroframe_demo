@@ -13,19 +13,19 @@ function ShortCourses() {
         },
         {
             title: "Advanced TCL Based",
-            image: "/images/parflow-resources/Notebook.png",
+            image: `${import.meta.env.BASE_URL}/images/parflow-resources/Notebook.png`,
             description: "",
             link: "https://github.com/hydroframe/ParFlow_Advanced_ShortCourse",
         },
         {
             title: "Python Based (2022)",
-            image: "/images/parflow-resources/Notebook.png",
+            image: `${import.meta.env.BASE_URL}/images/parflow-resources/Notebook.png`,
             description: "",
             link: "https://github.com/hydroframe/parflow_python_shortcourse",
         },
         {
             title: "Python Based (2024)",
-            image: "/images/parflow-resources/Notebook.png",
+            image: `${import.meta.env.BASE_URL}/images/parflow-resources/Notebook.png`,
             description: "",
             link: "https://github.com/hydroframe/parflow_short_course_updated",
         },
@@ -33,7 +33,7 @@ function ShortCourses() {
     const [SubsetShortCourses,] = useState<ParFlowCardType[]>([
         {
             title: "Subsetting Using HydroFrame and HydroData",
-            image: "/images/parflow-resources/Notebook.png",
+            image: `${import.meta.env.BASE_URL}/images/parflow-resources/Notebook.png`,
             description: "",
             link: "https://github.com/hydroframe/Subsetting_ShortCourse",
         },
@@ -45,7 +45,7 @@ function ShortCourses() {
                 item={{
                     title: "Short Courses",
                     description: "",
-                    image: "./images/three-line-swoosh.svg",
+                    image: `${import.meta.env.BASE_URL}/images/three-line-swoosh.svg`,
                 }}
             />
             <div className="px-4 sm:px-8 lg:px-36 grid gap-10 py-5 lg:py-10">

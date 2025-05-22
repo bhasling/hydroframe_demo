@@ -1,0 +1,133 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* @font-face {
+    font-family        : 'HelveticaNow';
+    font-weight        : 100 900;
+    font-display       : swap;
+    font-style         : normal;
+    font-named-instance: 'Regular';
+    src                : url('/assets/fonts/HelveticaNowText-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family        : 'HelveticaNow';
+    font-weight        : 700;
+    font-display       : swap;
+    font-style         : extrabold;
+    font-named-instance: 'Extrabold';
+    src                : url('/assets/fonts/HelveticaNowText-Bold.woff2') format('woff2');
+} */
+
+*,
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.main-slider .control-dots {
+    margin       : 0px !important;
+    margin-bottom: -4px !important;
+}
+
+.main-slider .control-dots .dot {
+    background-color: gray !important;
+    box-shadow      : unset !important;
+    margin          : 0 4px !important;
+}
+
+.main-slider .slider-wrapper {
+    margin-bottom: 36px !important;
+}
+
+.slide.selected {
+    z-index: 0 !important;
+}
+
+.science-slider button {
+    /* background-color: transparent !important; */
+}
+
+.text-link {
+    color: skyblue;
+}
+
+div[id^=headlessui-menu-items-]::before {
+    /* content: "▼"; */
+    /* top: 0; */
+    /* left: 20px; */
+    /* background: red; */
+    /* color: red; */
+    /* position: absolute; */
+    content            : "";
+    position           : absolute;
+    border-color       : rgba(194, 225, 245, 0);
+    border             : solid transparent;
+    border-bottom-color: #005d87;
+    border-width       : 12px;
+    margin-left        : 5px;
+    top                : 0px;
+    left               : 10px;
+    z-index            : 1;
+    transform          : rotate(180deg);
+    z-index            : 999;
+}
+
+.react-multiple-carousel__arrow {
+    background   : rgb(35 140 203 / 50%);
+}
+
+.react-multiple-carousel__arrow:hover {
+    background: rgb(35 140 203 / 90%);
+}
+
+.parflow-tip::before {
+    position    : absolute;
+    content     : "";
+    top         : 5%;
+    left        : -50px;
+    /* To the left of the tooltip */
+    margin-top  : -5px;
+    border-width: 60px;
+    border-style: solid;
+    border-color: transparent #D9F2FE transparent transparent;
+    transform   : rotate(90deg);
+}
+
+.react-multi-carousel-dot--active button {
+    background  : #165c86 !important;
+    border-color: #165c86 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .parflow-tip::before {
+        position    : absolute;
+        content     : "";
+        top         : -30px;
+        left        : 22%;
+        margin-top  : -5px;
+        border-width: 35px;
+        border-style: solid;
+        border-color: transparent #D9F2FE transparent transparent;
+        transform   : rotate(1800deg);
+        z-index     : 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .control-dots {
+        width: auto !important;
+    }
+
+    .react-multi-carousel-track {
+        column-gap: 0px;
+    }
+}

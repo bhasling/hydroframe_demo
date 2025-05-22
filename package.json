@@ -1,0 +1,82 @@
+{
+  "name": "HydroFrame",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+    "@headlessui/react": "^1.7.17",
+    "@heroicons/react": "^2.0.18",
+    "@hookform/resolvers": "^2.9.10",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/dompurify": "^3.0.3",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.18.51",
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-mailchimp-subscribe": "^2.1.2",
+    "@types/react-router-dom": "^5.3.3",
+    "dompurify": "^3.0.6",
+    "dotenv": "^16.3.1",
+    "heroicons": "^2.0.18",
+    "package-lock.json": "^1.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-ga4": "^2.1.0",
+    "react-hook-form": "^7.46.2",
+    "react-mailchimp-subscribe": "^2.1.3",
+    "react-multi-carousel": "^2.8.4",
+    "react-responsive-carousel": "^3.2.23",
+    "react-router-dom": "^6.16.0",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.5",
+    "uuid": "^9.0.1",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.2.0"
+  },
+  "scripts": {
+    "start": "vite --port 3000 --host",
+    "build": "vite build --mode development && cp _redirects build/_redirects",
+    "build_preview": "npm run build && vite preview --port 3000 --host",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "./node_modules/.bin/eslint . --ext .ts,.tsx",
+    "format": "prettier --write 'src/**/*.{ts,tsx}'"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 4,
+    "bracketSpacing": true,
+    "arrowParens": "avoid",
+    "semi": true,
+    "singleQuote": false
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.1.0",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.57.0",
+    "postcss-cli": "^10.1.0",
+    "prettier": "^3.2.5",
+    "tailwindcss": "^3.3.3",
+    "vite": "^4.4.9",
+    "vite-tsconfig-paths": "^4.2.1"
+  }
+}

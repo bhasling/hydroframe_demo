@@ -9003,7 +9003,7 @@ function Home() {
         "img",
         {
           className: "w-full m-auto lg:m-0",
-          src: "./images/Logo-Blue-hydroframe.png",
+          src: `${"https://bhasling.github.io/hydroframe_demo/"}/images/images/Logo-Blue-hydroframe.png`,
           alt: ""
         }
       ) }),

@@ -17141,19 +17141,19 @@ function ShortCourses() {
     },
     {
       title: "Advanced TCL Based",
-      image: "/images/parflow-resources/Notebook.png",
+      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/parflow-resources/Notebook.png`,
       description: "",
       link: "https://github.com/hydroframe/ParFlow_Advanced_ShortCourse"
     },
     {
       title: "Python Based (2022)",
-      image: "/images/parflow-resources/Notebook.png",
+      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/parflow-resources/Notebook.png`,
       description: "",
       link: "https://github.com/hydroframe/parflow_python_shortcourse"
     },
     {
       title: "Python Based (2024)",
-      image: "/images/parflow-resources/Notebook.png",
+      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/parflow-resources/Notebook.png`,
       description: "",
       link: "https://github.com/hydroframe/parflow_short_course_updated"
     }
@@ -17161,7 +17161,7 @@ function ShortCourses() {
   const [SubsetShortCourses] = reactExports.useState([
     {
       title: "Subsetting Using HydroFrame and HydroData",
-      image: "/images/parflow-resources/Notebook.png",
+      image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/parflow-resources/Notebook.png`,
       description: "",
       link: "https://github.com/hydroframe/Subsetting_ShortCourse"
     }
@@ -17173,7 +17173,7 @@ function ShortCourses() {
         item: {
           title: "Short Courses",
           description: "",
-          image: "./images/three-line-swoosh.svg"
+          image: `${"https://bhasling.github.io/hydroframe_demo/"}/images/three-line-swoosh.svg`
         }
       }
     ),
